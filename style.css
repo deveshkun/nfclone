@@ -1,0 +1,51 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+.main{
+    background-image: url("Images/bg.jpeg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px,100vw);
+}
+
+.main .box{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    opacity: 0.7;
+    position:absolute;
+    top: 0;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 90px;
+    position: inherit;
+}
+
+nav img,button{
+    position: relative;
+    z-index: 10;
+}
+
+.main .hero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}   
